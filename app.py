@@ -24,14 +24,10 @@ with col1:
   
 with col2:
     st.subheader("Esta es la segunda columna")
-    modo = st.radio("Estrato socioeconomico", ('1', '2,'3','4','5'))
+    modo = st.radio("Estrato socioeconomico", ('1','2,'3'))
     if modo == '1':
        st.write('La vista es fundamental para tu interfaz')
     if modo == '2':
        st.write('La audición es fundamental para tu interfaz')
     if modo == '3':
-       st.write('El tacto es fundamental para tu interfaz')
-    if modo == '4':
-       st.write('El tacto es fundamental para tu interfaz')   
-    if modo == '5':
        st.write('El tacto es fundamental para tu interfaz')
