@@ -8,7 +8,7 @@ image = Image.open('medellin.jpg')
 
 st.image(image, caption='Calles de Medellin')
 
-texto = st.text_input('Escribe algo', 'Nombre Barrio')
+texto = st.text_input('Nombre de mi barrio', 'Este es mi barrio')
 st.write('El texto escrito es', texto)
 
 st.subheader("Ahora usemos 2 Columnas")
@@ -24,7 +24,7 @@ with col1:
   
 with col2:
     st.subheader("Esta es la segunda columna")
-    modo = st.radio("Estrato socioeconomico", ('1', '2, '3','4','5'))
+    modo = st.radio("Estrato socioeconomico", ('1', '2,'3','4','5'))
     if modo == 'Visual':
        st.write('La vista es fundamental para tu interfaz')
     if modo == 'auditiva':
