@@ -24,7 +24,7 @@ with col1:
   
 with col2:
     st.subheader("Esta es la segunda columna")
-    modo = st.radio("Estrato socioeconomico", ('Estrato 1','Estrato 2,'Estrato 3'))
+    modo = st.radio("Estrato socioeconomico", ('Estrato 1','Estrato 2','Estrato 3'))
     if modo == 'Estrato 1':
        st.write('La vista es fundamental para tu interfaz')
     if modo == 'Estrato 2':
